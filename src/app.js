@@ -17,4 +17,4 @@ try {
 
 
 exports.dayOfTheWeek = dayOfTheWeek;
-exports.monthOfTheYear = monthOfTheYear
+exports.monthOfTheYear = monthOfTheYear;
