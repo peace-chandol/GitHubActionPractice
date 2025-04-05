@@ -1,0 +1,52 @@
+[debug] [2025-04-05T14:31:07.158Z] ----------------------------------------------------------------------
+[debug] [2025-04-05T14:31:07.160Z] Command:       /opt/homebrew/Cellar/node/22.10.0/bin/node /Users/peace/Documents/se2/cicd/GitHubActionPractice/node_modules/.bin/firebase emulators:start
+[debug] [2025-04-05T14:31:07.160Z] CLI Version:   14.1.0
+[debug] [2025-04-05T14:31:07.160Z] Platform:      darwin
+[debug] [2025-04-05T14:31:07.160Z] Node Version:  v22.10.0
+[debug] [2025-04-05T14:31:07.160Z] Time:          Sat Apr 05 2025 21:31:07 GMT+0700 (Indochina Time)
+[debug] [2025-04-05T14:31:07.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-05T14:31:07.279Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-05T14:31:07.279Z] > authorizing via signed-in user (peace.hyperion@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-05T14:31:07.419Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-05T14:31:07.419Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-05T14:31:07.419Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-05T14:31:07.421Z] [hub] writing locator at /var/folders/5t/j3w1z6xn4pq8x3jjb1fm1fdc0000gn/T/hub-compengess-6430003421.json
+[debug] [2025-04-05T14:31:07.428Z] Checked if tokens are valid: true, expires at: 1743864446179
+[debug] [2025-04-05T14:31:07.428Z] Checked if tokens are valid: true, expires at: 1743864446179
+[debug] [2025-04-05T14:31:07.428Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/compengess-6430003421/sites 
+[debug] [2025-04-05T14:31:08.368Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/compengess-6430003421/sites 200
+[debug] [2025-04-05T14:31:08.368Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/compengess-6430003421/sites {"sites":[{"name":"projects/compengess-6430003421/sites/compengess-6430003421","defaultUrl":"https://compengess-6430003421.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-05T14:31:08.369Z] Checked if tokens are valid: true, expires at: 1743864446179
+[debug] [2025-04-05T14:31:08.369Z] Checked if tokens are valid: true, expires at: 1743864446179
+[debug] [2025-04-05T14:31:08.369Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/compengess-6430003421/webApps/-/config [none]
+[debug] [2025-04-05T14:31:09.524Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/compengess-6430003421/webApps/-/config 200
+[debug] [2025-04-05T14:31:09.524Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/compengess-6430003421/webApps/-/config {"projectId":"compengess-6430003421","appId":"1:673530187999:web:286e7cd162ae8fb987996a","storageBucket":"compengess-6430003421.firebasestorage.app","apiKey":"AIzaSyDoXjAi9g3EZfg5M-dN_-pqVtE54sH3MW4","authDomain":"compengess-6430003421.firebaseapp.com","messagingSenderId":"673530187999"}
+[debug] [2025-04-05T14:31:09.533Z] Checked if tokens are valid: true, expires at: 1743864446179
+[debug] [2025-04-05T14:31:09.533Z] Checked if tokens are valid: true, expires at: 1743864446179
+[debug] [2025-04-05T14:31:09.533Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/compengess-6430003421 [none]
+[debug] [2025-04-05T14:31:09.843Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/compengess-6430003421 200
+[debug] [2025-04-05T14:31:09.843Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/compengess-6430003421 {"projectId":"compengess-6430003421","projectNumber":"673530187999","displayName":" CompEngEss-6430003421","name":"projects/compengess-6430003421","resources":{"hostingSite":"compengess-6430003421"},"state":"ACTIVE","etag":"1_259e712e-18d1-49ec-a4cc-c808b2dc14ea"}
+[info] i  hosting[compengess-6430003421]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[compengess-6430003421]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-05T14:31:09.911Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [05/Apr/2025:14:31:14 +0000] "GET / HTTP/1.1" 200 371 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [05/Apr/2025:14:31:14 +0000] \"GET / HTTP/1.1\" 200 371 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [05/Apr/2025:14:31:14 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [05/Apr/2025:14:31:14 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [05/Apr/2025:14:31:14 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [05/Apr/2025:14:31:14 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15\""}}
